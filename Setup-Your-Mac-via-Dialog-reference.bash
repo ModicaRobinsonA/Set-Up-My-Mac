@@ -340,7 +340,7 @@ jamfBinary="/usr/local/bin/jamf"
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 
 welcomeTitle="Welcome to your new Mac, ${loggedInUserFirstname}!"
-welcomeMessage="select your preferred **Configuration** then click **Continue** to start applying settings to your new Mac.  \n\nOnce completed, the **Wait** button will be enabled and you'll be able to review the results before restarting your Mac.  \n\nIf you need assistance, please contact the USOPC Service Desk: +1(719)-866-4357.  \n\n---  \n\n#### Configurations  \n- **Required:** Minimum organization apps  \n- **Recommended:** Required apps and Microsoft Office  \n- **Complete:** Recommended apps, Adobe Acrobat Reader and Google Chrome"
+welcomeMessage="Select your preferred **Configuration** then click **Continue** to start applying settings to your new Mac.  \n\nOnce completed, the **Wait** button will be enabled and you'll be able to review the results before restarting your Mac.  \n\nIf you need assistance, please contact the USOPC Service Desk: +1(719)-866-4357.  \n\n---  \n\n#### Configurations  \n- **Required:** Minimum organization apps  \n- **Recommended:** Required apps and Microsoft Office  \n- **Complete:** Recommended apps, Adobe Acrobat Reader and Google Chrome"
 welcomeBannerImage="https://raw.githubusercontent.com/ModicaRobinsonA/Set-Up-My-Mac/main/Pictures/Soft%20Stars.jpeg?token=GHSAT0AAAAAACP3YFUI6U5F3Q2TFG4ERAISZQEJMUQ"
 welcomeBannerText="Welcome to your new Mac, ${loggedInUserFirstname}!"
 welcomeCaption="Please review the above video, then click Continue."
@@ -351,7 +351,7 @@ appleInterfaceStyle=$( /usr/bin/defaults read /Users/"${loggedInUser}"/Library/P
 if [[ "${appleInterfaceStyle}" == "White" ]]; then
     welcomeIcon="https://raw.githubusercontent.com/ModicaRobinsonA/Set-Up-My-Mac/main/Pictures/USOPC_Brand_Vert_FC_RGB.png?token=GHSAT0AAAAAACP3YFUI2AJFIJAEHUYJEIMMZQEJN5A"
 else
-    welcomeIcon="https://raw.githubusercontent.com/ModicaRobinsonA/Set-Up-My-Mac/main/Pictures/USOPC_Brand_Vert_FC_RGB.png?token=GHSAT0AAAAAACP3YFUI2AJFIJAEHUYJEIMMZQEJN5A"
+    welcomeIcon="https://raw.githubusercontent.com/ModicaRobinsonA/Set-Up-My-Mac/main/Pictures/Vert%20WH%20Logo.png"
 fi
 
 
