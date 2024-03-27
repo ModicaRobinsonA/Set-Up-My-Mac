@@ -397,19 +397,20 @@ welcomeJSON='{
             "required" : false,
             "prompt" : "Computer Name"
         },
-        {   "title" : "User Name",
+        {   "title" : "First and Last Name",
             "required" : true,
-            "prompt" : "User Name"
+            "prompt" : "First and Last Name"
         },
         
     ],
   "selectitems" : [
-        {   "title" : "Configuration",
+        {   "title" : "Location",
             "default" : "Required",
             "values" : [
-                "Required",
-                "Recommended",
-                "Complete"
+                "Colorado Springs",
+                "Lake Placid",
+                "Chula Vista"
+                "Remote"
             ]
         },  
         {   "title" : "Department",
