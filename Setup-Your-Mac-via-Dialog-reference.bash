@@ -341,7 +341,7 @@ jamfBinary="/usr/local/bin/jamf"
 
 welcomeTitle="Welcome to your new Mac, ${loggedInUserFirstname}!"
 welcomeMessage="select your preferred **Configuration** then click **Continue** to start applying settings to your new Mac.  \n\nOnce completed, the **Wait** button will be enabled and you'll be able to review the results before restarting your Mac.  \n\nIf you need assistance, please contact the USOPC Service Desk: +1(719)-866-4357.  \n\n---  \n\n#### Configurations  \n- **Required:** Minimum organization apps  \n- **Recommended:** Required apps and Microsoft Office  \n- **Complete:** Recommended apps, Adobe Acrobat Reader and Google Chrome"
-welcomeBannerImage="https://img.freepik.com/free-photo/yellow-watercolor-paper_95678-446.jpg"
+welcomeBannerImage="https://github.com/ModicaRobinsonA/Set-Up-My-Mac/blob/0aca34ff2abe1e2d28f66eb3f2e4edfad8e3dc52/Pictures/Soft%20Stars.jpeg"
 welcomeBannerText="Welcome to your new Mac, ${loggedInUserFirstname}!"
 welcomeCaption="Please review the above video, then click Continue."
 welcomeVideoID="vimeoid=803933536"
@@ -349,9 +349,9 @@ welcomeVideoID="vimeoid=803933536"
 # Welcome icon set to either light or dark, based on user's Apperance setting (thanks, @mm2270!)
 appleInterfaceStyle=$( /usr/bin/defaults read /Users/"${loggedInUser}"/Library/Preferences/.GlobalPreferences.plist AppleInterfaceStyle 2>&1 )
 if [[ "${appleInterfaceStyle}" == "White" ]]; then
-    welcomeIcon="https://github.com/ModicaRobinsonA/Set-Up-My-Mac/blob/main/Pictures/USOPC_Brand_Vert_FC_RGB.png"
+    welcomeIcon="https://github.com/ModicaRobinsonA/Set-Up-My-Mac/blob/0aca34ff2abe1e2d28f66eb3f2e4edfad8e3dc52/Pictures/USOPC_Brand_Vert_FC_RGB.png"
 else
-    welcomeIcon="https://github.com/ModicaRobinsonA/Set-Up-My-Mac/blob/main/Pictures/USOPC_Brand_Vert_FC_RGB.png"
+    welcomeIcon="https://github.com/ModicaRobinsonA/Set-Up-My-Mac/blob/0aca34ff2abe1e2d28f66eb3f2e4edfad8e3dc52/Pictures/USOPC_Brand_Vert_FC_RGB.png"
 fi
 
 
