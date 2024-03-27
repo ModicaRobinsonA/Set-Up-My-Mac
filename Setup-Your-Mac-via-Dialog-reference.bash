@@ -349,9 +349,9 @@ welcomeVideoID="vimeoid=803933536"
 # Welcome icon set to either light or dark, based on user's Apperance setting (thanks, @mm2270!)
 appleInterfaceStyle=$( /usr/bin/defaults read /Users/"${loggedInUser}"/Library/Preferences/.GlobalPreferences.plist AppleInterfaceStyle 2>&1 )
 if [[ "${appleInterfaceStyle}" == "White" ]]; then
-    welcomeIcon="https://github.com/ModicaRobinsonA/Set-Up-My-Mac/blob/0aca34ff2abe1e2d28f66eb3f2e4edfad8e3dc52/Pictures/USOPC_Brand_Vert_FC_RGB.png"
+    welcomeIcon="https://raw.githubusercontent.com/ModicaRobinsonA/Set-Up-My-Mac/main/Pictures/USOPC_Brand_Vert_FC_RGB.png?token=GHSAT0AAAAAACP3YFUI2AJFIJAEHUYJEIMMZQEJN5A"
 else
-    welcomeIcon="https://github.com/ModicaRobinsonA/Set-Up-My-Mac/blob/0aca34ff2abe1e2d28f66eb3f2e4edfad8e3dc52/Pictures/USOPC_Brand_Vert_FC_RGB.png"
+    welcomeIcon="https://raw.githubusercontent.com/ModicaRobinsonA/Set-Up-My-Mac/main/Pictures/USOPC_Brand_Vert_FC_RGB.png?token=GHSAT0AAAAAACP3YFUI2AJFIJAEHUYJEIMMZQEJN5A"
 fi
 
 
