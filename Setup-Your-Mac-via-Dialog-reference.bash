@@ -445,9 +445,9 @@ welcomeJSON='{
 
 title="Setting up ${loggedInUserFirstname}'s Mac"
 message="Please wait while the following apps are installed …"
-bannerImage="/Users/modicarobinsona/Downloads/USOPC_Brand_Horz_FC_RGB.png"
+bannerImage="https://raw.githubusercontent.com/ModicaRobinsonA/Set-Up-My-Mac/main/Pictures/Soft%20Stars.jpeg?token=GHSAT0AAAAAACP3YFUI6U5F3Q2TFG4ERAISZQEJMUQ"
 bannerText="Setting up ${loggedInUserFirstname}'s Mac"
-helpmessage="If you need assistance, please contact the Global Service Department:  \n- **Telephone:** +1 (801) 555-1212  \n- **Email:** support@domain.org  \n- **Knowledge Base Article:** KB0057050  \n\n**Computer Information:** \n\n- **Operating System:**  ${macOSproductVersion} ($macOSbuildVersion)  \n- **Serial Number:** ${serialNumber}  \n- **Dialog:** ${dialogVersion}  \n- **Started:** ${timestamp}"
+helpmessage="If you need assistance, please contact the Service Desk:  \n- **Telephone:** +1 (719)866-HELP  \n- **Email:** itservicedesk@usopc.org  \n- **Knowledge Base Article:** 00000  \n\n**Computer Information:** \n\n- **Operating System:**  ${macOSproductVersion} ($macOSbuildVersion)  \n- **Serial Number:** ${serialNumber}  \n- **Dialog:** ${dialogVersion}  \n- **Started:** ${timestamp}"
 infobox="Analyzing input …" # Customize at "Update Setup Your Mac's infobox"
 selfServiceBrandingImage="/Users/${loggedInUser}/Library/Application Support/com.jamfsoftware.selfservice.mac/Documents/Images/brandingimage.png"
 if [[ ! -f "${selfServiceBrandingImage}" ]]; then
