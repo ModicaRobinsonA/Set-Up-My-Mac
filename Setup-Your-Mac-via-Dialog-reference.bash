@@ -351,7 +351,7 @@ appleInterfaceStyle=$( /usr/bin/defaults read /Users/"${loggedInUser}"/Library/P
 if [[ "${appleInterfaceStyle}" == "White" ]]; then
     welcomeIcon="https://raw.githubusercontent.com/ModicaRobinsonA/Set-Up-My-Mac/main/Pictures/USOPC_Brand_Vert_FC_RGB.png?token=GHSAT0AAAAAACP3YFUI2AJFIJAEHUYJEIMMZQEJN5A"
 else
-    welcomeIcon="https://raw.githubusercontent.com/ModicaRobinsonA/Set-Up-My-Mac/main/Pictures/Vert%20WH%20Logo.png"
+    welcomeIcon="https://raw.githubusercontent.com/ModicaRobinsonA/Set-Up-My-Mac/main/Pictures/USOPC_Brand_Vert_FC_RGB.png?token=GHSAT0AAAAAACP3YFUI2AJFIJAEHUYJEIMMZQEJN5A"
 fi
 
 
