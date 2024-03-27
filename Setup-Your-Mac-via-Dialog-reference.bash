@@ -341,7 +341,7 @@ jamfBinary="/usr/local/bin/jamf"
 
 welcomeTitle="Welcome to your new Mac, ${loggedInUserFirstname}!"
 welcomeMessage="select your preferred **Configuration** then click **Continue** to start applying settings to your new Mac.  \n\nOnce completed, the **Wait** button will be enabled and you'll be able to review the results before restarting your Mac.  \n\nIf you need assistance, please contact the USOPC Service Desk: +1(719)-866-4357.  \n\n---  \n\n#### Configurations  \n- **Required:** Minimum organization apps  \n- **Recommended:** Required apps and Microsoft Office  \n- **Complete:** Recommended apps, Adobe Acrobat Reader and Google Chrome"
-welcomeBannerImage="https://img.freepik.com/free-photo/yellow-watercolor-paper_95678-446.jpg"
+welcomeBannerImage="https://raw.githubusercontent.com/ModicaRobinsonA/Set-Up-My-Mac/main/Pictures/Soft%20Stars.jpeg?token=GHSAT0AAAAAACP53PDPUKPJFANPPPBIO6JUZQEI7UQ"
 welcomeBannerText="Welcome to your new Mac, ${loggedInUserFirstname}!"
 welcomeCaption="Please review the above video, then click Continue."
 welcomeVideoID="vimeoid=803933536"
