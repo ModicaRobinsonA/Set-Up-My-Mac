@@ -601,7 +601,7 @@ function policyJSONConfiguration() {
                     {
                         "listitem": "Palo Alto GlobalProtect",
                         "icon": "ea794c5a1850e735179c7c60919e3b51ed3ed2b301fe3f0f27ad5ebd394a2e4b",
-                        "progresstext": "Use Palo Alto GlobalProtect to establish a Virtual Private Network (VPN) connection to Church headquarters.",
+                        "progresstext": "Use Palo Alto GlobalProtect to establish a Virtual Private Network (VPN) connection to USOPC headquarters.",
                         "trigger_list": [
                             {
                                 "trigger": "globalProtect",
@@ -697,7 +697,7 @@ function policyJSONConfiguration() {
                     {
                         "listitem": "Palo Alto GlobalProtect",
                         "icon": "ea794c5a1850e735179c7c60919e3b51ed3ed2b301fe3f0f27ad5ebd394a2e4b",
-                        "progresstext": "Use Palo Alto GlobalProtect to establish a Virtual Private Network (VPN) connection to Church headquarters.",
+                        "progresstext": "Use Palo Alto GlobalProtect to establish a Virtual Private Network (VPN) connection to USOPC headquarters.",
                         "trigger_list": [
                             {
                                 "trigger": "globalProtect",
@@ -836,7 +836,7 @@ function policyJSONConfiguration() {
                     {
                         "listitem": "Palo Alto GlobalProtect",
                         "icon": "ea794c5a1850e735179c7c60919e3b51ed3ed2b301fe3f0f27ad5ebd394a2e4b",
-                        "progresstext": "Use Palo Alto GlobalProtect to establish a Virtual Private Network (VPN) connection to Church headquarters.",
+                        "progresstext": "Use Palo Alto GlobalProtect to establish a Virtual Private Network (VPN) connection to USOPC headquarters.",
                         "trigger_list": [
                             {
                                 "trigger": "globalProtect",
@@ -989,7 +989,7 @@ function policyJSONConfiguration() {
                     {
                         "listitem": "Palo Alto GlobalProtect",
                         "icon": "ea794c5a1850e735179c7c60919e3b51ed3ed2b301fe3f0f27ad5ebd394a2e4b",
-                        "progresstext": "Use Palo Alto GlobalProtect to establish a Virtual Private Network (VPN) connection to Church headquarters.",
+                        "progresstext": "Use Palo Alto GlobalProtect to establish a Virtual Private Network (VPN) connection to USOPC headquarters.",
                         "trigger_list": [
                             {
                                 "trigger": "globalProtect",
