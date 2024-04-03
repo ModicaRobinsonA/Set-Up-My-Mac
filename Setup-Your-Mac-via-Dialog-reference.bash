@@ -404,13 +404,12 @@ welcomeJSON='{
         
     ],
   "selectitems" : [
-        {   "title" : "Location",
+        {   "title" : "Configuration",
             "default" : "Required",
             "values" : [
-                "Colorado Springs",
-                "Lake Placid",
-                "Chula Vista"
-                "Remote"
+                "Required",
+                "Recommended",
+                "Complete"
             ]
         },  
         {   "title" : "Department",
