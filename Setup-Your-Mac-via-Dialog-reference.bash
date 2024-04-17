@@ -375,7 +375,7 @@ welcomeVideo="--title \"$welcomeTitle\" \
 
 
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
-# "Welcome" JSON for Capturing User Input (thanks, @bartreardon!)
+# "Welcome" JSON for Capturing User Input 
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 
 welcomeJSON='{
@@ -407,7 +407,6 @@ welcomeJSON='{
         {   "title" : "Configuration",
             "default" : "Required",
             "values" : [
-                "Required",
                 "Recommended",
                 "Complete"
             ]
