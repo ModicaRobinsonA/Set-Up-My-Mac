@@ -405,7 +405,7 @@ welcomeJSON='{
     ],
   "selectitems" : [
         {   "title" : "Configuration",
-            "default" : "Required",
+            "default" : "Complete",
             "values" : [
                 "Complete"
             ]
