@@ -340,7 +340,7 @@ jamfBinary="/usr/local/bin/jamf"
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 
 welcomeTitle="Welcome to your new Mac, ${loggedInUserFirstname}!"
-welcomeMessage="Select your preferred **Configuration** then click **Continue** to start applying settings to your new Mac.  \n\nOnce completed, the **Wait** button will be enabled and you'll be able to review the results before restarting your Mac.  \n\nIf you need assistance, please contact the USOPC Service Desk: +1(719)-866-4357.  \n\n---  \n\n#### Configurations  \n- **Required:** Minimum organization apps  \n- **Recommended:** Required apps and Microsoft Office  \n- **Complete:** Recommended apps, Adobe Acrobat Reader and Google Chrome"
+welcomeMessage="Select your preferred **Configuration** then click **Continue** to start applying settings to your new Mac.  \n\nOnce completed, the **Wait** button will be enabled and you'll be able to review the results before restarting your Mac.  \n\nIf you need assistance, please contact the USOPC Service Desk: +1(719)-866-4357.  \n\n---  \n\n#### Configurations  \n- **Complete:** Recommended apps, Adobe Acrobat Reader and Google Chrome"
 welcomeBannerImage="https://raw.githubusercontent.com/ModicaRobinsonA/Set-Up-My-Mac/main/Pictures/Soft%20Stars.jpeg?token=GHSAT0AAAAAACP3YFUI6U5F3Q2TFG4ERAISZQEJMUQ"
 welcomeBannerText="Welcome to your new Mac, ${loggedInUserFirstname}!"
 welcomeCaption="Please review the above video, then click Continue."
@@ -393,13 +393,13 @@ welcomeJSON='{
     "titlefont" : "shadow=true, size=40",
     "messagefont" : "size=14",
     "textfield" : [
-        {   "title" : "First Name",
+        {   "title" : "Computer Name",
             "required" : false,
-            "prompt" : "First Name"
+            "prompt" : "Computer Name"
         },
-        {   "title" : "Last Name",
+        {   "title" : "First and Last Name",
             "required" : true,
-            "prompt" : "Last Name"
+            "prompt" : "First and Last Name"
         },
         
     ],
@@ -423,10 +423,6 @@ welcomeJSON='{
                 "Legal",
                 "Marketing",
                 "Operations"
-                "Events and Logistics"
-                "Games Operations"
-                "Sport Performance"
-                "Ethics and Compliance"
             ]
         }
     ],
