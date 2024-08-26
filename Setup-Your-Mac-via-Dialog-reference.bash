@@ -9,12 +9,11 @@
 #
 # HISTORY
 #
-#   Version 1.8.0, 06-Mar-2023, Dan K. Snelson (@dan-snelson)
-#   - Introduces "Configurations" (thanks, @drtaru!)
+#   Version 1.1.0, 26-Aug-2024, Sage Moyes and Akeem Modica-Robinson
+#   - Introduces "Configurations" 
 #       - Required
 #       - Recommended
 #       - Complete
-#   - Play video at Welcome dialog (Issue No. 36)
 #
 ####################################################################################################
 
